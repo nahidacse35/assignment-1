@@ -37,16 +37,92 @@ p {
 }
 
 .donate-button {
-    text-decoration: none;
-    background: tomato;
-    padding: 15px 40px;
+    background-color: #ff5959;
     border-radius: 5px;
     color: white;
-    font-weight: 500;
+    padding: 15px 32px;
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 70%;
-    left: 45%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 45%;
 
+}
+
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.ammount {
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+.donate-ammount h2 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+
+}
+
+.donate-ammount p {
+    color: #707070;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.ammount-item {
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#different-color {
+    background-color: #ffeeee;
+    border: 2px solid #ff5959;
+    color: #ff5959;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text] {
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.second-donate-button {
+    background-color: #ff5959;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 45%;
 }
