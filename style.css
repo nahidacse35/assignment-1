@@ -4,7 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+p {
+    font-size: 17px;
+    text-align: justify;
+}
 
 .banner {
     background-image: url(images/flood.jpg);
@@ -52,7 +55,7 @@ body {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -78,6 +81,11 @@ body {
     font-size: 17px;
     font-weight: 400;
 
+}
+
+.ammount-list {
+    display: flex;
+    margin-bottom: 30px;
 }
 
 .ammount-item {
@@ -126,6 +134,25 @@ input[type=text] {
     margin-left: 45%;
 }
 
+.half-width {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.half-width img {
+    width: 80%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+
+}
 
 
 .donate-plan {
@@ -194,6 +221,53 @@ input[type=text] {
 
 }
 
+.get-update {
+    width: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    background-color: #fff4d6;
+    padding: 100px 40px 40px 100px;
+
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 545px;
+    border-radius: 10px;
+
+}
+
+.form {
+    margin-bottom: 35px;
+}
+
+.form input {
+    background-color: #d9d9d9;
+}
+
+.form-email {
+    border-radius: 5px;
+    border: 1px solid #CAD3DB;
+    width: 231px;
+    font-size: 17px;
+    color: #0F121F;
+}
+
+.form-button {
+    background: #ff5959;
+    padding: 10px;
+    border: none;
+    width: 144px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+
 footer {
     background-color: black;
     height: 150px;
@@ -201,7 +275,7 @@ footer {
     padding-top: 30px;
 }
 
-footer h3 {
+footer h2 {
     color: #ff5959;
 
 }
@@ -209,4 +283,5 @@ footer h3 {
 footer p {
     color: white;
     font-size: 12px;
+    text-align: center;
 }
