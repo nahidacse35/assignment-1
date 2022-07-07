@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,23 +15,22 @@ body {
 
 }
 
-h1 {
+.banner h1 {
     color: white;
     text-align: center;
     font-size: 60px;
     padding-top: 50px;
 }
 
-h2 {
+.banner h2 {
     color: white;
     text-align: center;
     font-size: 40px;
 }
 
-p {
+.banner p {
     color: white;
     text-align: center;
-    margin: 30px;
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -125,4 +124,89 @@ input[type=text] {
     font-size: 18px;
     margin-top: 30px;
     margin-left: 45%;
+}
+
+
+
+.donate-plan {
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+.donate-plan-text h2 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+
+}
+
+.donate-plan-text p {
+    color: #707070;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+
+.plan-item {
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    background-color: #fafafa;
+    padding: 20px 40px 40px 20px;
+
+}
+
+#plan-bg-food {
+    background-color: rgb(218, 240, 248);
+}
+
+#plan-bg-shelter {
+    background-color: rgb(245, 224, 220);
+}
+
+#plan-bg-edu {
+    background-color: rgb(234, 255, 234);
+}
+
+
+.plan-item h4 {
+
+    color: black;
+    text-align: left;
+    font-size: 20px;
+
+
+}
+
+
+.plan-item-text {
+
+    color: #707070;
+    text-align: left;
+    font-size: 17px;
+
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer h3 {
+    color: #ff5959;
+
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
 }
